@@ -1,0 +1,14 @@
+/*Organização do arquivo style.css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.863)), url("https://www.wallpapertip.com/wmimgs/182-1821410_film-wallpaper-square-v2-movie-collection.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}

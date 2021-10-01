@@ -1,0 +1,90 @@
+main{
+    position: relative;
+    top:4vh;
+}
+
+
+.videos {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+.videos h1{
+    font-size: 1em;
+}
+
+.video {
+    width: 30%;
+    height: auto;
+    margin-top: 24px;
+    padding: 10px;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+    color: white;
+    font-size:1em;
+}
+
+.video:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+    /*A tag hover é uma pseu-divisão que aplica estilos de efeito*/
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-time {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    float: right;
+    padding: 8px 12px;
+    display: block;
+    transform: translateY(-35px);
+}
+
+.video-title {
+    margin: 8px 0 12px;
+    color: white;
+}
+
+.video-views {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 12px;
+    display: block;
+}
+
+
+
+#pl1{
+    padding-top: 80px;
+}
+
+#pl2{
+    padding-top: 80px;
+}
+
+#pl3{
+    padding-top: 80px;
+}
+
+#pl4{
+    padding-top: 80px;
+}
+
+#pl5{
+    padding-top: 80px;
+}
+
+#pl6{
+    padding-top: 80px;
+}
